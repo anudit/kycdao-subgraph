@@ -1,0 +1,9 @@
+type KycValidity @entity {
+  id: Bytes!
+  user: Bytes!
+  validity: Boolean!
+  verifiedOn: BigInt!
+  tokenId: BigInt!
+  txnHash: Bytes!
+  expiry: BigInt!
+}
